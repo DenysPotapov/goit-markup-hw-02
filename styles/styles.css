@@ -77,6 +77,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-light-color);
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 /* header */
@@ -135,6 +138,8 @@ body {
 /* Hero */
 .slider {
   background-color: var(--main-dark-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .slider-title {
@@ -142,10 +147,12 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: var(--main-light-color);
+  text-align: center;
 }
 
 /* Why we section */
 .whywe {
+  padding-top: 94px;
 }
 
 .whywe-list {
@@ -170,6 +177,8 @@ body {
 
 /* What we do section */
 .whatwedo {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .whatwedo-list {
@@ -186,6 +195,8 @@ body {
 /* Team section */
 .team {
   background-color: var(--second-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -218,6 +229,8 @@ body {
 /* Footer */
 .footer {
   background: var(--main-dark-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .studio {
@@ -228,4 +241,57 @@ body {
   color: var(--main-light-color);
   line-height: 1.71;
   font-style: normal;
+}
+
+/* Porfolio section */
+.portfolio-content {
+  padding-bottom: 94px;
+}
+
+.portofolio-filter-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  margin-left: 280px;
+  margin-top: 94px;
+}
+
+.portfolio-filter-item:focus,
+.portfolio-filter-item:hover {
+  background-color: var(--blue-color);
+  color: var(--main-light-color);
+  cursor: pointer;
+}
+.portfolio-filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: var(--second-background-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.portfolio-works-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.portfolio-works-item {
+  background: var(--main-light-color);
+}
+
+.portfolio-h {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
 }
