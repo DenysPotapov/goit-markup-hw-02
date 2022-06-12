@@ -152,6 +152,7 @@ body {
   line-height: 1.36;
   color: var(--main-light-color);
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* Why we section */
@@ -169,6 +170,7 @@ body {
 }
 
 .whywe-h {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
